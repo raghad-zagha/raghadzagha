@@ -1,0 +1,44 @@
+body {
+  display: flex;
+  justify-content:center;
+  align-items :first baseline;
+  height: 100vh;
+  overflow-x: scroll;
+}
+.story-gallary {
+  display:flex;
+  justify-content: space-between;
+  margin-bottom: 100px;
+}
+.Story {
+  border-radius: 20px;
+  flex-basis: 22%;
+  padding-top: 38%; 
+  position: relative;
+  text-align: center;
+  padding: 60px;
+  border: 4px dotted #ccc;
+  padding: 50px;
+  margin: 50px 20px 50px ; 
+  background-position: center;
+  background-size: cover;
+  
+}
+.plusicon:hover {
+  background-color:#ccc; 
+}
+    .plusicon {
+      border-radius: 50px;
+      width: 35px;
+      height:35px;
+      background-color: #84888b;
+      color: #fff;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+}
+.Story h6 {
+  display: block;
+  font-size: 14px;
+}
